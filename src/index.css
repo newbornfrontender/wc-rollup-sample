@@ -1,0 +1,27 @@
+::slotted(h2) {
+  color: orange;
+}
+
+.one {
+  color: red;
+
+  & .and {
+    color: black;
+
+    @nest :host([green]) & {
+      color: green;
+    }
+  }
+
+  & .two {
+    color: blue;
+  }
+}
+
+p {
+  color: pink;
+
+  @nest ::slotted(&) {
+    color: purple;
+  }
+}

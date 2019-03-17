@@ -1,0 +1,26 @@
+{
+  "name": "wc-rollup-sample",
+  "version": "1.0.0",
+  "description": "WC Rollup Sample",
+  "repository": "git@github.com:newbornfrontender/wc-rollup-sample.git",
+  "author": "Infant Frontender <newbornfrontender@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write **/*.{html,js,json,md}",
+    "start": "rollup -c -w",
+    "build": "rollup -c",
+    "serve": "serve public"
+  },
+  "devDependencies": {
+    "postcss": "^7.0.14",
+    "postcss-html": "^0.36.0",
+    "postcss-load-config": "^2.0.0",
+    "postcss-preset-env": "^6.6.0",
+    "postcss-syntax": "^0.36.2",
+    "prettier": "^1.16.4",
+    "rollup": "^1.6.0",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-pluginutils": "^2.4.1",
+    "serve": "^10.1.2"
+  }
+}
