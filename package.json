@@ -20,7 +20,7 @@
     "prettier": "1.16.4",
     "rollup": "1.8.0",
     "rollup-plugin-node-resolve": "4.0.1",
-    "rollup-pluginutils": "2.5.0",
+    "rollup-pluginutils": "2.6.0",
     "serve": "11.0.0"
   }
 }
